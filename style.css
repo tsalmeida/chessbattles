@@ -1,0 +1,404 @@
+@font-face {
+    font-family: Share Tech;
+    src: url(ShareTech-Regular.ttf);
+}
+
+@font-face {
+    font-family: Share Tech Mono;
+    src: url(ShareTechMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik Mono One;
+    src: url(RubikMonoOne-Regular.ttf);
+}
+
+html {
+font-family: 'Share Tech', serif;
+background-color:#414141;
+color:#313131;
+font-size:200%;
+margin: 0;
+padding: 0;
+background-image: url("pink dust.png");
+overflow: hidden;
+height: 100%;
+width: 100%;
+}
+
+body {
+margin: 0;
+}
+
+p,li,h1,h2,h3 {
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+cursor:default;
+margin: inherit;
+margin-left: 1vw;
+margin-right: 1vw;
+margin-top: 1vh;
+margin-bottom: 2vh;
+}
+
+p {
+margin-bottom: 0.5vh;
+margin-top: 1vh;
+}
+
+h1 {
+font-family: 'Rubik Mono One', 'Share Tech', serif;
+font-weight: 700;
+font-size: 6vh;
+text-align: center;
+margin-top: 0;
+}
+
+h2, h3 {
+font-family: 'Share Tech Mono', serif;
+}
+
+h2 {
+font-size: 1.5rem;
+font-family: 'Share Tech Mono', serif;
+text-align: center;
+}
+
+h3 {
+font-size: 1.2rem;
+}
+
+.smaller {
+font-size: 3vh;
+}
+
+a {
+color: #313131;
+cursor:pointer;
+}
+
+a:link {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: line-through;
+	cursor: pointer;
+}
+
+a:active {
+	text-decoration: line-through;
+}
+
+#finalscreen {
+position:fixed;
+height:auto;
+width:auto;
+text-align:left;
+top:50%;
+left:50%;
+margin-right:-50%;
+transform:translate(-50%,-50%);
+background-color:#ec625f;
+opacity:1;
+border-radius:.5vh;
+border-color:#ec625f;
+border-style:solid;
+border-width:.3vh;
+padding:1vh;
+font-family: 'Share Tech Mono', serif;
+}
+
+.red {
+color: #ec625f;
+}
+
+.button {
+background-color:#313131;
+color:#ec625f;
+border-radius:.5vh;
+border-color:#313131;
+border-style:solid;
+border-width:.3vh;
+margin-top: 1vh;
+margin-left: 1vw;
+margin-right: 1vw;
+text-align: center;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+padding-top: 0.8vh;
+padding-bottom: 0.8vh;
+}
+
+.buttonlang {
+background-color:#313131;
+color:#ec625f;
+border-radius:.5vh;
+border-color:#313131;
+border-style:solid;
+border-width:.3vh;
+margin-top: 1vh;
+margin-left: 1vw;
+margin-right: 1vw;
+text-align: center;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+padding-top: 0.8vh;
+padding-bottom: 0.8vh;
+}
+
+.button:hover {
+color:#313131;
+cursor:pointer;
+border-color:#313131;
+background-color:#ec625f;
+}
+
+.buttonlang:hover {
+color:#313131;
+cursor:pointer;
+border-color:#313131;
+background-color:#ec625f;
+}
+
+.highlight {
+font-family: 'Share Tech', serif;
+background-color:#313131;
+color:#ec625f;
+border-radius:.5vh;
+border-color:#313131;
+border-style:solid;
+border-width:.3vh;
+margin-bottom: 1vh;
+padding-left: 1vw;
+padding-right: 1vw;
+cursor: default;
+text-align: center;
+}
+
+#finished,#newhigh {
+color:#85ec5f;
+}
+
+#restart {
+width:auto;
+text-align:center;
+height:auto;
+}
+
+.board {
+background-color:#ec625f;
+height:96vh;
+width:48vh;
+position:absolute;
+bottom: 0.5vh;
+top:3.5vh;
+left: 50%;
+margin-left: -24vh;
+border-color:transparent;
+border-style:solid;
+border-width:0;
+padding:0;
+padding-bottom: 1vh;
+overflow-y: auto;
+padding-bottom: 1vh;
+}
+
+.board2 {
+background-color:transparent;
+height:96vh;
+width:48vh;
+position:absolute;
+bottom: 0.5vh;
+top:3.5vh;
+left: 50%;
+margin-left: -24vh;
+border-color:transparent;
+border-style:solid;
+border-width:0;
+padding:0;
+}
+
+#scoreboard {
+height: 3vh;
+width: 100%;
+position: fixed;
+background-color: transparent;
+text-color: #ec625f;
+top: 0;
+left: 0;
+right: 0;
+font-size: 2vh;
+text-align: center;
+font-family: 'Share Tech Mono', serif;
+padding-top: 0.5vh;
+padding-bottom: 0.5vh;
+}
+
+.toptext {
+color: #ec625f;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+cursor: default;
+}
+
+.highscore {
+font-family: 'Share Tech Mono', serif;
+}
+
+.pos {
+font-family: monospace, sans-serif, serif;
+height:6vh;
+width:6vh;
+position:relative;
+float:left;
+box-sizing:border-box;
+cursor:pointer;
+border-style:solid;
+border-width:.3vh;
+margin:0;
+padding:0;
+}
+
+.pos:hover {
+border-color:#5f80ec;
+}
+
+.pos:active {
+border-color:#ec625f;
+}
+
+.shade {
+position:absolute;
+width:0;
+height:0;
+opacity:0.4;
+border-top:2.5vh solid #85ec5f;
+border-right:2.5vh solid transparent;
+}
+
+.shade2 {
+position:absolute;
+width:0;
+height:0;
+opacity:0.8;
+border-top:2.5vh solid #ecd25f;
+border-right:2.5vh solid transparent;
+}
+
+.s {
+background-color:#525252;
+border-color:#525252;
+}
+
+.s2 {
+background-color:#313131;
+border-color:#313131;
+}
+
+.p {
+color:#ec625f;
+position:absolute;
+font-size:5vh;
+line-height:0;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+cursor:pointer;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+margin:0;
+padding:0;
+}
+
+.u {
+color:#5f80ec;
+position:absolute;
+font-size:5vh;
+line-height:0;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+margin:0;
+padding:0;
+}
+
+.floatleft {
+	text-align: left;
+}
+
+.floatright {
+	text-align: right;
+}
+
+.overflow {
+overflow-y: auto;
+}
+
+.r {
+color:#f2f2f2;
+position:absolute;
+font-size:5vh;
+line-height:0;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+cursor:default;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+margin:0;
+padding:0;
+}
+
+.b {
+color:#414141;
+position:absolute;
+font-size:5vh;
+line-height:0;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+cursor:default;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none;
+margin:0;
+padding:0;
+}

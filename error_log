@@ -1,0 +1,34 @@
+[10-Feb-2019 21:24:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/chessbattles/engine_cb.php on line 6
+[06-Apr-2019 22:21:41 UTC] PHP Notice:  Undefined variable: station in /home/tsilvaalmeida/public_html/chessbattles/index-game.php on line 16
+[12-Feb-2020 11:06:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[12-Feb-2020 11:10:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[12-Feb-2020 11:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[27-Aug-2020 02:29:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[28-Feb-2021 13:50:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[28-Feb-2021 20:37:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[10-Mar-2022 22:07:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/tsilvaalmeida/public_html/nexustation/chessbattles/engine_cb.php on line 6
+[10-Mar-2022 22:42:09 UTC] PHP Notice:  Undefined variable: station in /home/tsilvaalmeida/public_html/nexustation/chessbattles/index-game.php on line 16
