@@ -87,7 +87,7 @@ function loadTop() {
 	if (!isset($args[0])) { $args[0] = false; }
 	$mode = $args[0];
 
-	require_once '../nxst/engine_files/Mobile-Detect-2.8.26/Mobile_Detect.php';
+	require_once '../../repositories/Mobile-Detect/Mobile_Detect.php';
 	$detect = new Mobile_Detect;
 	if ( $detect->isMobile() ) { $mobile = true; }
 	else { $mobile = false; }
