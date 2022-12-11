@@ -87,10 +87,8 @@ function loadTop() {
 	if (!isset($args[0])) { $args[0] = false; }
 	$mode = $args[0];
 
-	require_once '../../repositories/Mobile-Detect/Mobile_Detect.php';
-	$detect = new Mobile_Detect;
-	if ( $detect->isMobile() ) { $mobile = true; }
-	else { $mobile = false; }
+//	require_once '../../repositories/Mobile-Detect/Mobile_Detect.php';
+    $mobile = false;
 	echo '<!DOCTYPE html>
 	<html>
 		<head>
